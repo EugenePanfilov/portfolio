@@ -35,18 +35,12 @@
    Было обучено 3 бустинговых модели, 1 нейронная сеть, сделан стекинг. Все алгоритмы показали неудовлетворительное 
 качество. Далее приводятся оценки качества на обученных моделях.
 
-RandomForestRegressor
-
-RandomForestRegressor(n_estimators = 1500, min_samples_split = 2, min_samples_leaf = 1, max_depth = 20, bootstrap = True, 
-                      max_features = 20, n_jobs = -1, random_state = 42)
-
-MAE = 27459 $,     MAPE = 83 %
 
 GradientBoostingRegressor
 
 GradientBoostingRegressor(n_estimators = 1000, min_samples_split = 2, min_samples_leaf = 1, max_depth = 20, 
                           bootstrap = True, max_features = 20, learning_rate = 0.01, random_state=42)
-MAE = 24812 $,     MAPE = 175 %
+MAE = 2080 $,     MAPE = 94 %
 
 CatBoostRegressor
 
@@ -72,8 +66,7 @@ Neural Network
 MAE = 49280 $,     MAPE = 98 %
 
 
-   Таким образом лучшее качество показал алгоритм GradientBoostingRegressor MAE = 24812 $ и MAPE = 175 %, что является 
-неудовлетворительным результатом.
+   Таким образом лучшее качество показал алгоритм GradientBoostingRegressor MAE = 2080 $ и MAPE = 94 %.
 
 В приложении 2 ноутбука: 
 
